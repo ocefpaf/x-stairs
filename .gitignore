@@ -1,0 +1,42 @@
+# Specific local files
+/dask-worker-space
+
+# python and jupyter notebook files
+.ipynb_checkpoints
+__pycache__
+.pytest_cache
+.cache
+*.pyc
+
+# doppyo distribution directories
+/build
+/dist
+/doppyo.egg-info
+
+# Mac stuff
+._*
+.DS_Store
+
+# Standard error output files
+*.err
+
+# excel files
+**/*.xlsx
+**/*.xl
+
+# nc files
+*.nc
+
+# Backup files
+*.bak
+
+# Compiled Static libraries
+**/*.lai
+**/*.la
+**/*.a
+**/*.lib
+
+# Executables
+**/*.exe
+**/*.out
+**/*.app
